@@ -1,0 +1,28 @@
+.card__container {
+  width: 40rem;
+  height: 40rem;
+  padding: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 7rem);
+  column-gap: 2rem;
+}
+
+.card {
+  cursor: pointer;
+  font-size: 3rem;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  margin: 3rem;
+  background-color: aquamarine;
+}
+
+.hidden {
+  cursor: pointer;
+  font-size: 3rem;
+  width: 7rem;
+  height: 7rem;
+  position: relative;
+  margin: 3rem;
+  background-color: black;
+}
